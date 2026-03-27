@@ -150,7 +150,8 @@
           "required": false,
           "code": "autoSweepCount",
           "formResetBehavior": "reset",
-          "defaultValue": 1,
+          "defaultValue": 0,
+          "min": 0,
           "max": 2,
           "step": 1
         },
