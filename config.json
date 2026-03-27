@@ -144,8 +144,8 @@
       "name": "Autonomous",
       "fields": [
         {
-          "title": "Fuel Scored in Auto?",
-          "description": "The number of fuel scored in autonomous.",
+          "title": "Auto Description",
+          "description": "What Type of Auto do They Have",
           "type": "text",
           "required": false,
           "code": "autoFuelScored",
