@@ -144,13 +144,43 @@
       "name": "Autonomous",
       "fields": [
         {
-          "title": "Auto Description",
-          "description": "What Type of Auto do They Have",
-          "type": "text",
+          "title": "Sweep count",
+          "description": "The number of times the robot swept into fuel.",
+          "type": "counter",
           "required": false,
-          "code": "autoFuelScored",
+          "code": "autoSweepCount",
           "formResetBehavior": "reset",
-          "defaultValue": ""
+          "defaultValue": 1,
+          "max": 2,
+          "step": 1
+        },
+        {
+          "title": "Intake bias",
+          "description": "Where did the robot intake fuel from?",
+          "type": "select",
+          "required": false,
+          "code": "autoIntakeBias",
+          "formResetBehavior": "reset",
+          "defaultValue": "",
+          "choices": {
+            "middle": "Middle",
+            "hub": "Hub"
+          }
+        },
+        {
+          "title": "Shooting position",
+          "description": "Where did the robot shoot fuel from?",
+          "type": "select",
+          "required": false,
+          "code": "autoShootingPosition",
+          "formResetBehavior": "reset",
+          "defaultValue": "",
+          "choices": {
+            "trench": "Trench",
+            "depot": "Depot",
+            "outpost": "Outpost",
+            "other": "Other"
+          }
         },
         {
           "title": "Climbed",
