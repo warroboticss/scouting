@@ -165,7 +165,8 @@
           "defaultValue": "",
           "choices": {
             "middle": "Middle",
-            "hub": "Hub"
+            "hub": "Hub",
+            "both": "Both"
           }
         },
         {
