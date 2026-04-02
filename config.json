@@ -195,16 +195,7 @@
     {
       "name": "Teleop",
       "fields": [
-        {
-          "title": "Defended during match?",
-          "description": "Did the robot play defense during the match?",
-          "type": "boolean",
-          "required": false,
-          "code": "robotDefended",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
+         {
           "title": "Hopper size",
           "description": "Rate the number of blocks the robot's hopper can hold.",
           "type": "range",
@@ -215,6 +206,15 @@
           "min": 0,
           "max": 60,
           "step": 1
+        },
+        {
+          "title": "Defended during match?",
+          "description": "Did the robot play defense during the match?",
+          "type": "boolean",
+          "required": false,
+          "code": "robotDefended",
+          "formResetBehavior": "reset",
+          "defaultValue": false
         },
         {
           "title": "Climbed",
