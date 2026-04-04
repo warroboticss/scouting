@@ -69,11 +69,12 @@
         {
           "title": "Team Number",
           "description": "Enter the number of the team you are scouting.",
-          "type": "text",
+          "type": "number",
           "required": true,
           "code": "robot",
           "formResetBehavior": "preserve",
-          "defaultValue": ""
+          "defaultValue": 0,
+          "min": 0
         },
         {
           "title": "First Name & Last Initial",
