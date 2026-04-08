@@ -196,7 +196,7 @@
     {
       "name": "Teleop",
       "fields": [
-         {
+        {
           "title": "Hopper size",
           "description": "Rate the number of blocks the robot's hopper can hold.",
           "type": "range",
@@ -268,7 +268,7 @@
       "fields": [
         {
           "title": "Scoring Effectiveness",
-          "description": "Rate the robot's scoring effectiveness.",
+          "description": "Rate the robot's scoring effectiveness. 0: No ability to score in hub. 1: Almost never scored during the match. 2: Barely scored; had poor accuracy or fire rate. 3: Scored somewhat well with acceptable accuracy and fire rate. 4: Scored frequently with fast fire rate, cycle times, or accuracy. 5: Scored very frequently with fast cycle times, fire rate, and accuracy",
           "type": "range",
           "required": false,
           "code": "scoringEff",
@@ -279,8 +279,8 @@
           "step": 1
         },
         {
-          "title": "Defense Skill",
-          "description": "Rate the robot's defensive skill.",
+          "title": "Defense Effectiveness",
+          "description": "Rate the robot's defensive effectiveness. 0: Played no defense. 1: Defense was not impactful or effective at all. 2: Slightly slowed opponents down. 3: Interrupted scoring somewhat. 4: Greatly slowed down opponent scoring. 5: Prevented almost all opponent scoring in a shift",
           "type": "range",
           "required": false,
           "code": "defSkill",
