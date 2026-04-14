@@ -181,15 +181,6 @@
             "Yes": "Climb",
             "F": "Failed Climb"
           }
-        },
-        {
-          "title": "Alliance won auto?",
-          "description": "Did your alliance win the autonomous period?",
-          "type": "boolean",
-          "required": false,
-          "code": "allianceWonAuto",
-          "formResetBehavior": "reset",
-          "defaultValue": false
         }
       ]
     },
@@ -289,19 +280,6 @@
           "min": 0,
           "max": 5,
           "step": 1
-        },
-        {
-          "title": "Yellow/Red Card",
-          "type": "select",
-          "required": true,
-          "code": "yc",
-          "formResetBehavior": "reset",
-          "defaultValue": "No Card",
-          "choices": {
-            "No Card": "No Card",
-            "Yellow": "Yellow Card",
-            "Red": "Red Card"
-          }
         },
         {
           "title": "Comments",
