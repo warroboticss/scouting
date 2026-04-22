@@ -109,29 +109,11 @@
           }
         },
         {
-          "title": "Swerve drivetrain?",
-          "description": "Does your robot have a drivetrain that uses swerve (or do they have tank)?",
-          "type": "boolean",
-          "required": false,
-          "code": "swerve",
-          "formResetBehavior": "reset",
-          "defaultValue": true
-        },
-        {
           "title": "Turret?",
           "description": "Does your robot have a turret (shooter that can rotate)?",
           "type": "boolean",
           "required": false,
           "code": "turret",
-          "formResetBehavior": "reset",
-          "defaultValue": false
-        },
-        {
-          "title": "No Show",
-          "description": "Check if the robot did not show up for the match.",
-          "type": "boolean",
-          "required": false,
-          "code": "noShow",
           "formResetBehavior": "reset",
           "defaultValue": false
         }
@@ -289,9 +271,10 @@
           "formResetBehavior": "reset",
           "defaultValue": ".",
           "min": 0,
-          "max": 175
+          "max": 100
         }
       ]
     }
   ]
+}
 }
