@@ -3,7 +3,7 @@
   "page_title": "Rebuilt",
   "year": 2026,
   "delimiter": "\t",
-  "teamNumber": 7183,
+  "teamNumber": 4.25,
   "floatingField": {
     "show": false,
     "codeValue": "teamNumber"
@@ -131,7 +131,7 @@
           "formResetBehavior": "reset",
           "defaultValue": 0,
           "min": 0,
-          "max": 2,
+          "max": 3,
           "step": 1
         },
         {
@@ -176,9 +176,9 @@
           "required": false,
           "code": "hopperSize",
           "formResetBehavior": "reset",
-          "defaultValue": 20,
+          "defaultValue": 40,
           "min": 0,
-          "max": 60,
+          "max": 75,
           "step": 1
         },
         {
@@ -191,7 +191,7 @@
           "defaultValue": false
         },
         {
-          "title": "Climbed",
+          "title": "Climbed?",
           "description": "The level the robot climbed during endgame.",
           "type": "select",
           "required": true,
@@ -207,7 +207,7 @@
           }
         },
         {
-          "title": "DIED?",
+          "title": "Died?",
           "description": "Did the robot tip or fall over during the match?",
           "type": "boolean",
           "required": false,
@@ -267,11 +267,11 @@
           "title": "Comments",
           "type": "text",
           "required": false,
-          "code": "co",
+          "code": "comments",
           "formResetBehavior": "reset",
           "defaultValue": ".",
           "min": 0,
-          "max": 100
+          "max": 150
         }
       ]
     }
